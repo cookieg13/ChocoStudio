@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=DM+Sans&family=Pacifico&family=Source+Code+Pro:wght@200&display=swap");
+/* RESET  */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Cute Font", cursive;
+  color: #32150b;
+}
+body {
+  background-color: #654b4d9e;
+}
+
+/* LOGO  */
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 29px;
+  margin-right: 55px;
+}
+#logo img {
+  height: 70px;
+}
+
+/* NAVBAR */
+#navbar {
+  background-color: #32150b;
+  padding: 2px 22px;
+  width: 100%;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 11px 26px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+#navbar li a:hover {
+  color: #d8988d;
+}
+
+/* INTRO SECTION */
+#introSection {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  height: 350px;
+  flex-direction: column;
+  font-weight: bolder;
+  font-size: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#introSection div.small {
+  font-size: 45px;
+}
+
+/*MISSION SECTION */
+#missionSection {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+}
+#missionSection div {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+.card {
+  padding: 17px;
+  display: inline-block;
+  background-color: #f8b0b56e;
+  /* border: 2px solid black; */
+  border-radius: 36px;
+  width: 24%;
+  height: 209px;
+  margin: 21px 88px;
+}
+.card h4 {
+  text-align: center;
+  font-size: 45px;
+  margin: 9px 12px;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  height: 90px;
+  padding: 0 14px;
+}
+.card-img img {
+  height: inherit;
+}
+.card-content p {
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*SPONSORS SECTION */
+#sponsorsSection {
+  height: 308px;
+  padding-top: 51px;
+}
+#sponsorsSection div {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+#sponsors {
+  height: 160px;
+  max-width: 1000px;
+  margin: auto;
+}
+.spImage {
+  height: 190px;
+  margin: 1px;
+  padding: 54px;
+}
+
+/* FOOTER  */
+#footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #32150b;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}

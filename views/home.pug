@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css 
+
+block content 
+    section#introSection 
+        div Welcome to CHOCO STUDIO! 
+        div.small  Want to learn how to bake? Register now!
+    section#missionSection 
+        div OUR MISSION
+        div.card 
+            h4 Learn from the Experts
+            div.card-box 
+                div.card-img   
+                    img(src="/static/1.png")
+                div.card-content 
+                    p Learn from the best chefs        
+        div.card 
+            h4 Explore new ingredients
+            div.card-box 
+                div.card-img   
+                    img(src="/static/2.png")
+                div.card-content 
+                    p Get acquainted with newer and better ingredients
+        div.card 
+            h4 Bake with love
+            div.card-box 
+                div.card-img   
+                    img(src="/static/3.png")
+                div.card-content 
+                    p Fall in love with baking 
+    section#sponsorsSection 
+        div OUR SPONSORS
+        #sponsors 
+            img(src="/static/logo1.png" alt="sponsor img" class="spImage")
+            img(src="/static/logo2.png" alt="sponsor img" class="spImage")
+            img(src="/static/logo3.png" alt="sponsor img" class="spImage")
+            img(src="/static/logo4.png" alt="sponsor img" class="spImage")
+    

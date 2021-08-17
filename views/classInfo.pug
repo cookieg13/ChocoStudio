@@ -1,0 +1,55 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css 
+        include ../static/styleClassInfo.css
+
+block content
+    div#container
+        p.head Classes
+        div.card 
+            h4 Cookery class for Cakes
+            div.card-box 
+                div.card-img   
+                    img(src="/static/4.png")
+                div.card-content 
+                    p Monday & Tuesday 4pm        
+        div.card 
+            h4 Cookery class for Cookies
+            div.card-box 
+                div.card-img   
+                    img(src="/static/5.png")
+                div.card-content 
+                    p Tuesday & Wednesday 5pm
+        div.card 
+            h4 Cookery class for Desserts
+            div.card-box 
+                div.card-img   
+                    img(src="/static/6.png")
+                div.card-content 
+                    p Wednesday & Thursday 6pm
+        div.card 
+            h4 Cookery class for Pudding
+            div.card-box 
+                div.card-img   
+                    img(src="/static/7.png")
+                div.card-content 
+                    p Thursday & Friday 5pm 
+        div.card 
+            h4 Cookery class for Cupcakes
+            div.card-box 
+                div.card-img   
+                    img(src="/static/8.png")
+                div.card-content 
+                    p Monday & Tuesday 2pm 
+        div.card 
+            h4 Cookery class for Biscuits
+            div.card-box 
+                div.card-img   
+                    img(src="/static/9.png")
+                div.card-content 
+                    p Tuesday & Wednesday 10am 

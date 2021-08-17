@@ -1,0 +1,18 @@
+#container {
+  min-height: 83vh;
+}
+
+#container p.small {
+  text-align: center;
+  margin: 28px 0;
+  font-size: 35px;
+  font-weight: bolder;
+  padding: 0px 300px 40px 300px;
+}
+
+#container p.large {
+  text-align: center;
+  margin: 28px 0;
+  font-size: 100px;
+  font-weight: bolder;
+}

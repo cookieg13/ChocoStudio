@@ -1,0 +1,21 @@
+//- layout.pug
+html
+  head
+    title CHOCO STUDIO
+    block scripts 
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | CHOCO 
+                | STUDIO
+            li #[a(href="/") HOME] 
+            li #[a(href="/about") ABOUT]
+            //- li #[a(href="/") SERVICES]
+            li #[a(href="/classInfo") CLASS INFO]
+            li #[a(href="/contact") CONTACT US]
+    block content
+    footer#footer 
+        | CHOCO STUDIO © 2021 | All rights reserved

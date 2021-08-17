@@ -1,0 +1,43 @@
+#container {
+  margin: auto;
+  width: 100%;
+  height: 803px;
+}
+#container p.head {
+  margin: 10px;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  margin: 28px 0px;
+}
+.card {
+  padding: 17px;
+  display: inline-block;
+  background-color: #f8b0b56e;
+  /* border: 2px solid black; */
+  border-radius: 36px;
+  width: 24%;
+  height: 209px;
+  margin: 21px 88px;
+}
+.card h4 {
+  text-align: center;
+  font-size: 45px;
+  margin: 9px 12px;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  height: 90px;
+  padding: 0 14px;
+}
+.card-img img {
+  height: inherit;
+}
+.card-content p {
+  font-size: 21px;
+  font-family: "Courier New", Courier, monospace;
+}
