@@ -6,7 +6,7 @@ mongoose.connect("mongodb://localhost/contactDG", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-const port = 80;
+const port = process.env.PORT || 80;
 
 //MONGOOSE SCHEMA
 var contactSchema = new mongoose.Schema({
